@@ -84,3 +84,55 @@ x = "Hello World"
 x.reverse.upcase
 # DLROW OLLEH
 ```
+
+## String Escaping And Interpolation
+
+- String with special characters.
+- A string type can be notified to contain an special characters using. `\`
+
+```rb
+x = 'Hello's world'
+# gives syntax error
+
+# instead 
+x = 'Hello\'s world'
+```
+
+**Control Characters**
+- Tabbed `\t`, 4 spaces
+- Line break `\n`
+
+Example:
+
+```rb
+x = 'Hello\nworld'
+
+puts x
+# Hello\nworld
+
+x = "Hello\nworld"
+puts x
+# Hello
+# World
+```
+
+**String Interpolation**
+- Inserting the value of a variable in the string.
+
+```rb
+name = "Surya"
+
+puts "Hi, #{name}"
+# Hi Surya
+
+puts 'Hi, #{name}'
+# Hi, #{name}
+
+puts "1 + 1 = #{1 + 1}"
+
+x = "Hi"
+puts "hey, #{x.upcase}"
+# hey, HI
+```
+
+**Note these controll characters and string interpolation works only with double quote string i.e. `""`**
