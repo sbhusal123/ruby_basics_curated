@@ -92,3 +92,17 @@ irb(main):032:0> person.length
 irb(main):033:0> person.to_a
 => [["name", "Surya"], ["age", "30"], ["addres", "foo"]]
 ```
+
+- `.has_key?` checks the presence of keys
+- `.has_value?` checks the presence of value
+
+```rb
+irb(main):028:0> x = {:a => 1, :b => 2}
+=> {:a=>1, :b=>2}
+
+irb(main):030:0> x.has_key?(:a)
+=> true
+
+irb(main):031:0> x.has_value?(2)
+=> true
+```
