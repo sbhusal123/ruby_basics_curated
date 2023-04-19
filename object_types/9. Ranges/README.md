@@ -5,7 +5,7 @@
 
 ## Range Types:
 - `<starting>..<ending>` is an inclusive range, as it consists of end element. Notice **two dots** between.
-- `<starting>...<ending>` is an exclusive range, as it consists of end element. Notice **three dots** between.
+- `<starting>...<ending>` is an exclusive range, as it doesnt consists of end element. Notice **three dots** between.
 
 **Examples**
 
