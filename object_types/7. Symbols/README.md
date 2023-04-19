@@ -54,4 +54,15 @@ irb(main):002:0> :name.object_id
 => 71708
 irb(main):003:0> :name.object_id
 => 71708
+
+irb(main):004:0> x = :hello
+=> :hello
+irb(main):005:0> y = :hello
+=> :hello
+irb(main):006:0> x == y
+=> true
+irb(main):007:0> x.object_id == y.object_id
+=> true
 ```
+
+[Read More on this article](https://medium.com/@lcriswell/ruby-symbols-vs-strings-248842529fd9)
