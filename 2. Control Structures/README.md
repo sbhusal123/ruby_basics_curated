@@ -105,3 +105,21 @@ end
 test(18) # Something else
 test(20) # Between 20 to 30
 ```
+
+## Inline conditionals: Ternary Operator
+
+```rb
+<boolean_eval> ? <true_eval> : <false_eval>
+```
+
+- Inline condition, uses `?` to evaluate an express based on a value that evaluates to boolean.
+- If an expression evaluates to true, expression just before `:` enters the execution flow.
+- Otherwise the expression after `:` is evaluated
+
+```rb
+x = 10
+x.even? ? (puts "Even") : (puts "Odd") # Even
+```
+
+Note that, ``even?`` is a method provided by ruby that checks weather a given integer is even.
+Basically with ruby, any methods that returns a boolean values ends with `?`
