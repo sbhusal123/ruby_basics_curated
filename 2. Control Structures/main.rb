@@ -14,13 +14,29 @@
 
 
 
+# def test(x)
+#     unless x == 3
+#         puts "x!=3"
+#     else
+#         puts "x=3"
+#     end
+# end
+
+# test(3) # x=3
+# test(4) # x!=3
+
 def test(x)
-    unless x == 3
-        puts "x!=3"
-    else
-        puts "x=3"
+    case x
+        when 1..10
+            puts "Beween 1 to 10"
+        when 11..15
+            puts "Between 11 to 15"
+        when 20..30
+            puts "Between 20 to 30"
+        else
+            puts "Something else"
     end
 end
 
-test(3) # x=3
-test(4) # x!=3
+test(18)
+test(20)

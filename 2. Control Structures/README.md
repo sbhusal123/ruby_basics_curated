@@ -69,3 +69,39 @@ end
 test(3) # x=3
 test(4) # x!=3
 ```
+
+## 3. Case
+
+```rb
+case <var>
+when <condition1>
+    # stmt
+when <condition2>
+    # stmt
+when <condition3>
+    # stmt
+else
+    # stmt
+end
+```
+
+Begins with case evaluation of the given variable, executes the statement inside when block if any condition true.
+Else, if no any condition evaluates to true then jumps control to the statement inside end
+
+```rb
+def test(x)
+    case x
+        when 1..10
+            puts "Beween 1 to 10"
+        when 11..15
+            puts "Between 11 to 15"
+        when 20..30
+            puts "Between 20 to 30"
+        else
+            puts "Something else"
+    end
+end
+
+test(18) # Something else
+test(20) # Between 20 to 30
+```
