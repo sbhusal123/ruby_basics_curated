@@ -109,7 +109,7 @@ test(20) # Between 20 to 30
 ## 4. Inline conditionals: Ternary Operator
 
 ```rb
-<boolean_eval> ? <true_eval> : <false_eval>
+<boolean_eval_value> ? <true_eval> : <false_eval>
 ```
 
 - Inline condition, uses `?` to evaluate an express based on a value that evaluates to boolean.
