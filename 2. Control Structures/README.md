@@ -106,7 +106,7 @@ test(18) # Something else
 test(20) # Between 20 to 30
 ```
 
-## Inline conditionals: Ternary Operator
+## 4. Inline conditionals: Ternary Operator
 
 ```rb
 <boolean_eval> ? <true_eval> : <false_eval>
